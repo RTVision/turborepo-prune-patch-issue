@@ -15,5 +15,10 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "next": "patches/next.patch"
+    }
   }
 }
